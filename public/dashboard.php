@@ -200,6 +200,8 @@ if (isset($_GET['partial']) && $_GET['partial'] === '1') {
         <nav>
 			<a href="./dashboard.php" class="<?= basename($_SERVER['SCRIPT_NAME'] ?? '') === 'dashboard.php' ? 'active' : '' ?>" aria-current="<?= basename($_SERVER['SCRIPT_NAME'] ?? '') === 'dashboard.php' ? 'page' : 'false' ?>">Dashboard</a>
 			<a href="./reports.php" class="<?= basename($_SERVER['SCRIPT_NAME'] ?? '') === 'reports.php' ? 'active' : '' ?>">Reports</a>
+			<a href="./users.php" class="<?= basename($_SERVER['SCRIPT_NAME'] ?? '') === 'users.php' ? 'active' : '' ?>">Users</a>
+			<a href="./settings.php" class="<?= basename($_SERVER['SCRIPT_NAME'] ?? '') === 'settings.php' ? 'active' : '' ?>">Settings</a>
         </nav>
     </aside>
     <div class="backdrop" id="backdrop"></div>

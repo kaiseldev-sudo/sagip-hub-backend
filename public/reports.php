@@ -113,6 +113,8 @@ foreach ($perDayStmt->fetchAll(PDO::FETCH_ASSOC) as $row) {
 		<nav>
 			<a href="./dashboard.php">Dashboard</a>
 			<a href="./reports.php" class="active" aria-current="page">Reports</a>
+			<a href="./users.php">Users</a>
+			<a href="./settings.php">Settings</a>
 		</nav>
 	</aside>
 	<div class="content">
